@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+
+import Index from './react-context-demo/index';
 
 
 class App extends Component {
 	render() {
-		return (
-			<div className="App">
-				12312
-			</div>
-		);
+		return <Index></Index>;
 	}
 }
 
